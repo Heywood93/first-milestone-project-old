@@ -1,4 +1,4 @@
-nav {
+body {
     color: #d1d1d1;
     background-color: #0f0f0f;
 }
@@ -16,7 +16,6 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100px;
 }
 header {
     background: url(images/monkees.jpg);
@@ -24,4 +23,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+a {
+    color: inherit;
 }
