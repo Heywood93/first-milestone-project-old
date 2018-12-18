@@ -1,5 +1,24 @@
+nav {
+    color: #d1d1d1;
+    background-color: #0f0f0f;
+}
+
+.btn {
+    margin-right: 0;
+    margin-left: 0;
+}
+.btn:hover {
+    color: #ffdddd;
+    background-color: #540000;
+}
+.logo {
+    background: url(images/cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+}
 header {
-    min-height: 50px;
     background: url(images/monkees.jpg);
     background-position: center;
     background-repeat: no-repeat;
