@@ -4,6 +4,7 @@ header {
 }
 nav {
     margin-top: 50px;
+    padding-right: 500px;
     background-color: white;
     opacity: 0.8;
 }
@@ -26,7 +27,13 @@ body {
 a {
     color: inherit;
 }
-.hidden {
-    display: none !important;
+@media (max-width:470) {
+    .logo {
+        display: none !important;
+    }
 }
-@media ()
+@media (min-width:471) {
+    .logo2 {
+        display: none !important;
+    }
+}
