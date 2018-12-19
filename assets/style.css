@@ -11,6 +11,10 @@ nav {
     background-color: white;
     opacity: 0.8;
 }
+.btn:hover {
+    color: white;
+    background-color: black;
+}
 
 .btn {
     margin-right: 0;
@@ -18,7 +22,7 @@ nav {
 }
 body {
     background: url(images/monkees.jpg);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -26,3 +30,9 @@ body {
 a {
     color: inherit;
 }
+.hidden {
+    display: none !important;
+    
+}
+
+@media
