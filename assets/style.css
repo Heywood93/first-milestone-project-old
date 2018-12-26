@@ -17,6 +17,7 @@ nav {
     margin-left: 0;
 }
 body {
+    background-color: #d1d1d1;
     background: url(images/monkees.jpg);
     background-position: top;
     background-repeat: no-repeat;
@@ -54,3 +55,4 @@ a:hover {
 .dates {
     list-style-type: none;
 }
+
