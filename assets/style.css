@@ -50,3 +50,7 @@ a:hover {
         display: none !important;
     }
 }*/
+
+.dates {
+    list-style-type: none;
+}
