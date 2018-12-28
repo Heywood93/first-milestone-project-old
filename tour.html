@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
     <title>The Monkees Tour Dates</title>
     <style type="text/css">
-        ul {list-style:none;
+        ul {
+            list-style: none;
         }
     </style>
 </head>
@@ -27,46 +28,37 @@
             </div>
         </div>
     </header>
-
-    <nav class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-4 col-md-12">
-                <div class="row logo justify-content-around">
+    <callout class="row container-fluid no-gutters">
+        <div class="col-12">
+            <nav class="navbar row navbar-light bg-light">
+                <div class="col">
                     <img src="assets/images/cover.png"></img>
                 </div>
-                <!--<div class="row logo2 justify-content-around">
-                    <img src="assets/images/cover.png"></img>
-                </div>-->
-            </div>
-            <div class="col-lg-8 col-md-12">
-                <div class="row">
-                    <div class="col">
-                        <a class="btn btn-lg" href="index.html">HOME</a>
-                    </div>
-                    <div class="col">
-                        <a class="btn btn-lg" href="music.html">MUSIC</a>
-                    </div>
-                    <div class="col">
-                        <a class="btn btn-lg" href="events.html">EVENTS</a>
-                    </div>
-                    <div class="col">
-                        <a class="btn btn-lg page" href="tour.html">TOUR</a>
-                    </div>
-                    <div class="col">
-                        <a class="btn btn-lg" href="about.html">ABOUT</a>
-                    </div>
+                <div class="col">
+                    <a class="btn btn-lg text-uppercase" href="index.html">Home</a>
                 </div>
-            </div>
+                <div class="col">
+                    <a class="btn btn-lg text-uppercase" href="music.html">Music</a>
+                </div>
+                <div class="col">
+                    <a class="btn btn-lg text-uppercase" href="events.html">Events</a>
+                </div>
+                <div class="col">
+                    <a class="btn btn-lg text-uppercase page" href="tour.html">Tour</a>
+                </div>
+                <div class="col">
+                    <a class="btn btn-lg text-uppercase" href="about.html">About</a>
+                </div>
+            </nav>
         </div>
-    </nav>
-
+    </callout>
     <div class="container email">
         <div class="row">
 
         </div>
     </div>
-    <section class="container-fluid tour">
-        <div class="row">
+    <main class="container-fluid">
+        <div class="row tour">
             <div class="col-4 text-center set">
                 <h2>Set List</h2>
                 <ul>
@@ -162,7 +154,7 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </main>
 
     <footer>
     </footer>
