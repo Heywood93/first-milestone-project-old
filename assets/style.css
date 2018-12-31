@@ -11,7 +11,11 @@ nav {
     color: white;
     background-color: black;
 }
-
+.promo:hover {
+    color: inherit;
+    background-color: #ffc107;
+    opacity: 0.95;
+}
 .btn {
     margin-right: 0;
     margin-left: 0;
