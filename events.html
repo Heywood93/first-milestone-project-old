@@ -26,7 +26,7 @@
 
     <callout class="row container-fluid no-gutters justify-content-center">
         <div class="col-12">
-            <nav class="navbar row navbar-light bg-light">
+            <nav class="navbar row navbar-light">
                 <div class="col">
                     <img src="assets/images/cover.png"></img>
                 </div>
@@ -44,30 +44,46 @@
                 </div>
             </nav>
         </div>
-        <div class="row promo">
-
-        </div>
-        <div class="row justify-content-center form">
-            <form>
-                <div class="form-group">
-                    <label for="InputName">Full Name</label>
-                    <input type="text" class="form-control" id="InputName" placeholder="Enter full name">
+        <div class="form">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#FormModal">
+              Book Event
+            </button>
+            <div class="modal fade" id="FormModal" tabindex="-1" role="dialog" aria-labelledby="FormModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="FormModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="InputName">Full Name</label>
+                                    <input type="text" class="form-control" id="InputName" placeholder="Enter full name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputNumber">Contact Number</label>
+                                    <input type="number" class="form-control" id="InputNumber" placeholder="Enter contact number">
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputEmail1">Email Address</label>
+                                    <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputDate">Date of Event</label>
+                                    <input type="date" class="form-control" id="InputDate">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">SRequest Booking</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="InputNumber">Contact Number</label>
-                    <input type="number" class="form-control" id="InputNumber" placeholder="Enter contact number">
-                </div>
-                <div class="form-group">
-                    <label for="InputEmail1">Email Address</label>
-                    <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="InputDate">Date of Event</label>
-                    <input type="date" class="form-control" id="InputDate">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            </div>
         </div>
     </callout>
 
@@ -118,6 +134,10 @@
 
     <footer>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 </body>
 
