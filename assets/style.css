@@ -19,6 +19,7 @@ nav {
 .btn {
     margin-right: 0;
     margin-left: 0;
+    border: 0;
 }
 
 callout {
@@ -33,6 +34,10 @@ main {
     color: #d1d1d1;
     background-color: black;
 }
+.music {
+    color: #d1d1d1;
+    background-color: #0f0f0f;
+}
 a {
     color: inherit;
 }
@@ -43,8 +48,8 @@ a:hover {
 .intro {
     background-color: #0f0f0f;
 }
-.albums {
-    background-color: #0f0f0f;
+.songs {
+    background-color: black;
 }
 .dates {
     background-color: #0f0f0f;
