@@ -57,9 +57,6 @@ a:hover {
 .review a {
     text-decoration: underline;
 }
-/*.btn:active {
-    outline-style: none;
-}*/
 .page {
     font-weight: bold;
 }
@@ -77,8 +74,3 @@ a:hover {
         display: none !important;
     }
 }*/
-
-.dates {
-    list-style-type: none;
-}
-
