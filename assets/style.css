@@ -48,6 +48,11 @@ a:hover {
 .intro {
     background-color: #0f0f0f;
 }
+.jumbotron {
+    text-align: center;
+    opacity: 0.8;
+    color: black !important;
+}
 .songs {
     background-color: black;
 }
