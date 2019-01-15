@@ -38,6 +38,10 @@ main {
     color: #d1d1d1;
     background-color: #0f0f0f;
 }
+footer {
+    color: #d1d1d1;
+    background-color: black;
+}
 a {
     color: inherit;
 }
@@ -50,8 +54,10 @@ a:hover {
 }
 .jumbotron {
     text-align: center;
-    opacity: 0.8;
-    color: black !important;
+    color: black;
+}
+.new {
+    text-align: center;
 }
 .songs {
     background-color: black;
@@ -59,8 +65,11 @@ a:hover {
 .dates {
     background-color: #0f0f0f;
 }
-.review a {
+footer a {
     text-decoration: underline;
+}
+blockquote {
+    margin-left: 3px;
 }
 .page {
     font-weight: bold;
@@ -68,6 +77,9 @@ a:hover {
 .page:hover {
     color: black;
     background-color: white;
+}
+.email {
+    color: black;
 }
 /*@media (max-width:470) {
     .logo {
