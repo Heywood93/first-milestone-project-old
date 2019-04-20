@@ -81,6 +81,10 @@ blockquote {
 .email {
     color: black;
 }
+.sign-up {
+    background-color: white !important;
+    opacity: 0.8;
+}
 /*@media (max-width:470) {
     .logo {
         display: none !important;
