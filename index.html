@@ -14,25 +14,94 @@
 
     <header>
         <div class="row">
-            <div class="col-sm-4 col-xs-12">
+            <div class="col-md-4 col-sm-9">
                 <div class="row">
                     <a class="col btn btn-lg fab fa-facebook" href="https://www.facebook.com/TheMonkees/"></a>
                     <a class="col btn btn-lg fab fa-twitter" href="https://twitter.com/TheMonkees"></a>
                     <a class="col btn btn-lg fab fa-youtube" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"></a>
                 </div>
             </div>
+            <div class="d-md-none col-sm-3">
+                <div class="form">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#FormModal">
+              Book Event
+            </button>
+                    <div class="modal fade" id="NavModal" tabindex="-1" role="dialog" aria-labelledby="NavModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="NavModalLabel">Event Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-group">
+                                                    <label for="InputFirstName">First Name</label>
+                                                    <input type="text" class="form-control" id="InputFistName" placeholder="First name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="InputLastName">Last Name</label>
+                                                    <input type="text" class="form-control" id="InputLastName" placeholder="Last name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="InputNumber">Contact Number</label>
+                                                    <input type="number" class="form-control" id="InputNumber" placeholder="Contact number">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="InputEmail">Email Address</label>
+                                                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Email Address">
+                                                    <small id="emailHelp" class="form-text text-muted">This will only be used to confirm event details, we will never share your email with anyone else.</small>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-group">
+                                                    <label for="InputDate">Date of Event</label>
+                                                    <input type="date" class="form-control" id="InputDate">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="InputAddLineOne">Event Location</label>
+                                                    <input type="text" class="form-control" id="InputAddLineOne" placeholder="Address line one">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="InputAddLineTwo" placeholder="Address line two">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="InputCity" placeholder="City">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="InputCounty" placeholder="County">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="InputPostcode" placeholder="Postcode">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-primary">Request Booking</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
-    <callout class="row container-fluid no-gutters justify-content-center">
-        <div class="col-12">
+    <callout class="row no-gutters justify-content-center">
+        <div class="col-12 container-fluid">
             <nav class="navbar row navbar-light">
-                <div class="col-md d-none d-md-block">
+                <div class="col-md col-sm-12">
                     <img src="assets/images/cover.jpg"></img>
                 </div>
-                <div class="d-md-none justifify-content-center col-sm-12">
+                <!--<div class="d-md-none justifify-content-center col-sm-12">
                     <img src="assets/images/cover.jpg"></img>
-                </div>
+                </div>-->
                 <div class="col-md d-none d-md-block">
                     <a class="btn btn-lg text-uppercase page" href="index.html">Home</a>
                 </div>
@@ -42,7 +111,7 @@
                 <div class="col-md d-none d-md-block">
                     <a class="btn btn-lg text-uppercase" href="events.html">Events</a>
                 </div>
-                <div class="col d-none d-md-block">
+                <div class="col-md d-none d-md-block">
                     <a class="btn btn-lg text-uppercase" href="tour.html">Tour</a>
                 </div>
             </nav>
